@@ -1,4 +1,5 @@
-/*Arquivo 02
+/* arquivo2.c
+Arquivo 02
 Crie um programa que calcule o aumento salarial de um funcionário
 Se o funcionário receber até 3 mil reais, o aumento deve ser
 de 20%, se o funcionário receber acima de 3 mil reais, o aumento

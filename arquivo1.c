@@ -1,4 +1,4 @@
-/*
+/* arquivo1.c
 Arquivo 01
 Código fonte que resolve um problema de receber dois valores
 digitados pelo usuário e efetua a soma
