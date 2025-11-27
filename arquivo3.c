@@ -8,7 +8,7 @@ Crie um programa que apresente um menu de opções para o usuário
 int main(){
     int op, a, b, r;
 
-    printf("MENU\n1 - Soma\n2 - Subtracao\n->");
+    printf("MENU\n1 - Soma\n2 - Subtracao\n-> ");
     scanf("%d", &op);
 
     if(op == 1){
