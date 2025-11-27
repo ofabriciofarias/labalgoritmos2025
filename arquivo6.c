@@ -3,9 +3,7 @@ Programa que calcula os elementos de uma função linear
 f(x) = a x + b
 */
 #include <stdio.h>
-
 int main(){
-
     int i, a, xMax, b;
 
     printf("Digite o numero de elementos que deseja calcular:  ");

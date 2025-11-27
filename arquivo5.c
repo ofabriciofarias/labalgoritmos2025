@@ -1,11 +1,11 @@
 /* arquivo5.c
 Vamos criar um programa que conte até 20 e apresente na tela
 */
-#include <stdio.h>
+#include <stdio.h> //Importação da biblioteca
 
-int main(){
+int main(){ //ALGORITMO
 
-    int i;
+    int i; //DECLARE i NUMERICO
 
     /* Analogamente ao nosso PARA
     PARA i <- 1 ATE 20 FAÇA
@@ -14,6 +14,6 @@ int main(){
     FIM
     */
     for(i = 0; i < 20; i++){
-        printf("%d\n", i+1);
+        printf("Computador entende %d - Humano entende %d\n", i, i+1);
     }
-}
+} //FIM_ALGORITMO

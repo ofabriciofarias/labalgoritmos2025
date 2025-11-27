@@ -1,7 +1,7 @@
 /* arquivo4.c
 Vamos criar uma calculadora que faz a soma, subtração, multiplicação e divisão
 */
-//Impotação da biblioteca
+//Importação da biblioteca
 #include <stdio.h>
 
 //Método main
@@ -13,7 +13,7 @@ int main(){
     printf("MENU\n1 - Soma\n2 - Subtracao\n3 - Multiplicacao\n4 - Divisao\n-> ");
     scanf("%d", &op);
 
-    if(op > 0 && op < 5){
+    if(op > 0 && op < 5){ //O E na linguagem C é representado por &&
         //Recebendo as entradas do usuário
         printf("Digite o primeiro valor = ");
         scanf("%f", &a);
@@ -46,3 +46,7 @@ int main(){
     }
     printf("Fim do programa\n");
 }
+
+
+
+
