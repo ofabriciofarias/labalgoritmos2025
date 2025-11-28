@@ -3,12 +3,12 @@
 Explorando o for
 Criar um laço para receber valores e calcular a média dos valores recebidos
 */
-#include <stdio.h>
+#include <stdio.h> //Importação da biblioteca
 
-int main(){
+int main(){ //ALGORITMO
 
-    int i, valor, tamanho;
-    float resultado;
+    int i, valor, tamanho; //DECLARE i, valor, tamanho NUMERICO
+    float resultado; //DECLARE resultado NUMERICO
 
     printf("Digite o numero de valores a receber = ");
     scanf("%d", &tamanho);

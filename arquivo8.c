@@ -1,5 +1,5 @@
 /* arquivo8.c
-Encontre o menor valor digita pelo usuário
+Encontre o menor valor digitado pelo usuário. Calcule a média dos valores recebidos
 */
 #include <stdio.h>
 int main(){
@@ -8,7 +8,7 @@ int main(){
     float resultado;
 
     printf("Digite o numero de valores a ser digitado = ");
-    scanf("%d", &tamanho);
+    scanf("%d", &tamanho); //Digitará o número de valores a receber
 
     resultado = 0;
 
@@ -31,3 +31,7 @@ int main(){
     printf("Media = %.2f\n", resultado);
     printf("Menor valor = %d\n", menorValor);
 }
+
+
+
+
